@@ -9,9 +9,9 @@ renders["MnDay"] = {
     "rendermode": smooth_lighting,
     "dimension": "overworld",
     "optimizeimg":[optipng(olevel=3)],
-    "showspawn": false,
+    "showspawn": False,
     "center": [0,0],
-    "showlocationmarker": false,
+    "showlocationmarker": False,
 }
 renders["MnNight"] = {
     "world": "Mn",
@@ -19,9 +19,9 @@ renders["MnNight"] = {
     "rendermode": smooth_night,
     "dimension": "overworld",
     "optimizeimg":[optipng(olevel=3)],
-    "showspawn": false,
+    "showspawn": False,
     "center": [0,0],
-    "showlocationmarker": false,
+    "showlocationmarker": False,
 }
 renders["MnFull"] = {
     "world": "Mn",
@@ -29,9 +29,9 @@ renders["MnFull"] = {
     "rendermode": normal,
     "dimension": "overworld",
     "optimizeimg":[optipng(olevel=3)],
-    "showspawn": false,
+    "showspawn": False,
     "center": [0,0],
-    "showlocationmarker": false,
+    "showlocationmarker": False,
 }
 renders["MnFull"] = {
     "world": "Mn",
@@ -40,8 +40,8 @@ renders["MnFull"] = {
     "dimension": "overworld",
     'rendermode': [ClearBase(), BiomeOverlay()],
     "optimizeimg":[optipng(olevel=3)],
-    "showspawn": false,
+    "showspawn": False,
     "center": [0,0],
-    "showlocationmarker": false,
+    "showlocationmarker": False,
 }
 
