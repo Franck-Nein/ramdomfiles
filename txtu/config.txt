@@ -1,7 +1,7 @@
 from .optimizeimages import optipng
 outputdir = "output/Mundonormal"
 texturepath = "default.zip"
-threads 2
+threads = 2
 worlds["Mn"] = "../FILENAME"
 renders["MnDay"] = {
     "world": "Mn",
