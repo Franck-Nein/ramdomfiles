@@ -11,7 +11,7 @@ renders["MnDay"] = {
     "optimizeimg":[optipng(olevel=3)],
     "showspawn": false,
     "center": [0,0],
-    "showlocationmarker": False,
+    "showlocationmarker": false,
 }
 renders["MnNight"] = {
     "world": "Mn",
@@ -21,7 +21,7 @@ renders["MnNight"] = {
     "optimizeimg":[optipng(olevel=3)],
     "showspawn": false,
     "center": [0,0],
-    "showlocationmarker": False,
+    "showlocationmarker": false,
 }
 renders["MnFull"] = {
     "world": "Mn",
@@ -31,7 +31,7 @@ renders["MnFull"] = {
     "optimizeimg":[optipng(olevel=3)],
     "showspawn": false,
     "center": [0,0],
-    "showlocationmarker": False,
+    "showlocationmarker": false,
 }
 renders["MnFull"] = {
     "world": "Mn",
@@ -42,6 +42,6 @@ renders["MnFull"] = {
     "optimizeimg":[optipng(olevel=3)],
     "showspawn": false,
     "center": [0,0],
-    "showlocationmarker": False,
+    "showlocationmarker": false,
 }
 
