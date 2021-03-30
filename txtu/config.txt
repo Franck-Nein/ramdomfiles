@@ -35,7 +35,7 @@ renders["MnFull"] = {
 }
 renders["MnFull"] = {
     "world": "Mn",
-    "title": "FullBright",
+    "title": "Overlay",
     "rendermode": normal,
     "dimension": "overworld",
     'rendermode': [ClearBase(), BiomeOverlay()],
