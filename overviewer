@@ -8,15 +8,20 @@ git config --global credential.helper store
 franco600@live.com.ar
 Franck-Nein
 
+chmod +x setupp.sh
 
+git clone https://github.com/Franck-Nein/Mn3d Mundonormal
+git clone https://github.com/Franck-Nein/ramdomfiles
 
-
+git config --global credential.helper store
 git config --global user.name "Franck-Nein"
 git config --global user.email "franco600@live.com.ar"
 
-echo 'cd '/root/test/Overviewer'
+    python3-pil python3-pillow python3-dev python3-numpy
+
+cd '/root/test/Overviewer'
 ls
-#python3 overviewer.py --config=config.txt
+python3 overviewer.py --config=config.txt
 
 git add * 
 git commit -m t 
@@ -32,9 +37,6 @@ cd /root/test/Overviewer/output/Mundonormal
 while :
 do
  echo "Looping.."
- git add * 
- git commit -m t || git add * && git commit -m t 
- git push origin master || git add * && git commit -m t && git push origin master 
- sleep 25
+ git add * && git commit -m t && git push origin master && sleep 25 || true
 done
 
