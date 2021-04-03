@@ -8,7 +8,10 @@ cp -r ramdomfiles/overviewerbuild/* Overviewer
 cp ramdomfiles/txtu/assets.zip Overviewer/old.zip
 mkdir Overviewer/output
 cd Overviewer/output
-git clone https://github.com/Franck-Nein/normal Mundonormal
+#git clone https://github.com/Franck-Nein/normal Mundonormal
+git clone --depth 1 https://github.com/Franck-Nein/normal Mundonormal
+echo '*.tmp
+*.bak' > Mundonormal/.gitignore
 #git clone https://github.com/Franck-Nein/Mn3d Mundonormal
 cd ..
 wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1XlR6MLUSkADBAYvfmNgK5Xc069cJrY-y' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1XlR6MLUSkADBAYvfmNgK5Xc069cJrY-y" -O FILENAME.zip && rm -rf /tmp/cookies.txt
