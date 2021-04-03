@@ -1,0 +1,17 @@
+from .optimizeimages import optipng
+outputdir = "output/Mundonormal"
+texturepath = "old.zip"
+threads = 2
+worlds["Mn"] = "FILENAME"
+renders["MnFull"] = {
+    "world": "Mn",
+    "title": "FullBright",
+    "rendermode": normal,
+    "dimension": "overworld",
+    "optimizeimg":[optipng(olevel=2)],
+    "showspawn": False,
+    "center": [0,0],
+    "showlocationmarker": False,
+}
+
+

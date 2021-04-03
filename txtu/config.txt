@@ -1,0 +1,47 @@
+from .optimizeimages import optipng
+outputdir = "output/Mundonormal"
+texturepath = "old.zip"
+threads = 2
+worlds["Mn"] = "FILENAME"
+renders["MnDay"] = {
+    "world": "Mn",
+    "title": "Day",
+    "rendermode": smooth_lighting,
+    "dimension": "overworld",
+    "optimizeimg":[optipng(olevel=3)],
+    "showspawn": False,
+    "center": [0,0],
+    "showlocationmarker": False,
+}
+renders["MnNight"] = {
+    "world": "Mn",
+    "title": "Night",
+    "rendermode": smooth_night,
+    "dimension": "overworld",
+    "optimizeimg":[optipng(olevel=3)],
+    "showspawn": False,
+    "center": [0,0],
+    "showlocationmarker": False,
+}
+renders["MnFull"] = {
+    "world": "Mn",
+    "title": "FullBright",
+    "rendermode": normal,
+    "dimension": "overworld",
+    "optimizeimg":[optipng(olevel=3)],
+    "showspawn": False,
+    "center": [0,0],
+    "showlocationmarker": False,
+}
+renders["MnFull"] = {
+    "world": "Mn",
+    "title": "Overlay",
+    "rendermode": normal,
+    "dimension": "overworld",
+    'rendermode': [ClearBase(), BiomeOverlay()],
+    "optimizeimg":[optipng(olevel=3)],
+    "showspawn": False,
+    "center": [0,0],
+    "showlocationmarker": False,
+}
+

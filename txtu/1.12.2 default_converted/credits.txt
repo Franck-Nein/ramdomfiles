@@ -1,0 +1,39 @@
+General 207:
+Brewing stand (side (edited by me) and base)
+Comparator (on and off)
+Dragon Egg (edited by me)
+Hopper (top, outside and inside (edited by me))
+Packed Ice
+Acacia Log (side and top)
+Dark Oak Log (side and top)
+Dark Oak Plank
+Activator Rail (all)
+Detector Rail (Powered)
+Red Sand
+Redstone Block
+Tripwire (edited by me)
+Tripwire Hook
+
+_Gunter_:
+Coarse dirt
+Inverted Daylight Detector Top
+Podzol (side and top)
+Double Tallgrass (top and bottom)
+Poppy
+Dandelion
+Hardened Clay
+Stained Clay (all)
+Hay Block (side and top (edited by me))
+Iron Trapdoor
+Birch Log (top (edited by me))
+Jungle Log (top)
+Spruce Log (top)
+Melon Stem Connected
+Quartz Block (all)
+Lapis Block (fix)
+Glass Pane Top Gray 
+
+ForcefulnessMC:
+Red Sandstone (all (edited))
+
+All the other textures are made by Vansius Productions

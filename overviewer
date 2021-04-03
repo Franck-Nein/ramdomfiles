@@ -1,0 +1,42 @@
+https://overviewer.org/builds/deb64/161/overviewer-0.16.12.deb
+
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1XlR6MLUSkADBAYvfmNgK5Xc069cJrY-y' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1XlR6MLUSkADBAYvfmNgK5Xc069cJrY-y" -O style.zip && rm -rf /tmp/cookies.txt
+
+git clone https://github.com/Franck-Nein/ramdomfiles
+
+git config --global credential.helper store
+franco600@live.com.ar
+Franck-Nein
+
+chmod +x setupp.sh
+
+git clone https://github.com/Franck-Nein/Mn3d Mundonormal
+git clone https://github.com/Franck-Nein/ramdomfiles
+
+git config --global credential.helper store
+git config --global user.name "Franck-Nein"
+git config --global user.email "franco600@live.com.ar"
+
+    python3-pil python3-pillow python3-dev python3-numpy
+
+cd '/root/test/Overviewer'
+ls
+python3 overviewer.py --config=config.txt
+
+git add * 
+git commit -m t 
+git push origin master
+
+
+
+
+
+
+echo '#!/bin/bash
+cd /root/test/Overviewer/output/Mundonormal
+while :
+do
+ echo "Looping.."
+ git add * && git commit -m t && git push origin master && sleep 25 || true
+done
+
